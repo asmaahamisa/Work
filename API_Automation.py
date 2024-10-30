@@ -5,7 +5,7 @@ url = base_url + endpoint
 
 
 
-
+# trigger
 # validate that the API successfully returns a list of brands.
 print("validate that the API successfully returns a list of brands")
 print('<br>')
