@@ -7,10 +7,10 @@ name: Run Python Code and Generate Report Second Task API Automation
 on:
   push:
     branches:
-      - master  # Runs the workflow on push to main branch
+      - main  # Runs the workflow on push to main branch
   pull_request:
     branches:
-      - master  # Also runs the workflow on pull requests to main
+      - main  # Also runs the workflow on pull requests to main
 
 jobs:
   build:
